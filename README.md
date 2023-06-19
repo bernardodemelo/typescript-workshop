@@ -1,2 +1,22 @@
-# Typescript Workshop
+![image](https://github.com/bernardomelo-ironhack-WDLT/typescript-workshop/assets/128500694/1a3080dd-3007-4d43-aec1-6140c6279818)# Typescript Workshop
 Repo for the TypeScript Workshop done on the Apr2023 Ironhack Web Dev Bootcamp
+
+<br>
+
+### Installation 
+
+<img src="https://preview.redd.it/0xf43gku4fh31.png?auto=webp&s=196354fc2818f3321797dd88540d594d9568dcb9"/>
+
+```bash
+# Install TypeScript Globally
+sudo npm install --global typescript
+```
+
+<br>
+
+```bash
+# Initialize TypeScript configs 
+tsc --init
+```
+
+<br>
