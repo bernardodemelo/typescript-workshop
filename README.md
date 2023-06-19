@@ -1,4 +1,4 @@
-![image](https://github.com/bernardomelo-ironhack-WDLT/typescript-workshop/assets/128500694/1a3080dd-3007-4d43-aec1-6140c6279818)# Typescript Workshop
+# Typescript Workshop
 Repo for the TypeScript Workshop done on the Apr2023 Ironhack Web Dev Bootcamp
 
 <br>
