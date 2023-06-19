@@ -10,7 +10,7 @@ However, it's still JS on steroids.
 
 Hope you enjoyed the workshop!
 
-<img src="https://www.meme-arsenal.com/memes/130df986d03cc4f5fad0dc19d0c9cd9a.jpg"/>
+<img src="https://i.redd.it/b70t2si6yrd61.png"/>
 
 <br>
 
