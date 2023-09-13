@@ -46,5 +46,5 @@ nodemon yourFileName.ts
 
 ### Cool Visual Studio Packages
 
-### Pretty TypeScript Errors
-### Typescript React code snippets
+#### Pretty TypeScript Errors
+#### Typescript React code snippets
