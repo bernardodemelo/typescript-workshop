@@ -1,57 +1,61 @@
-//let greeting:string = "Hello World";
+let greeting:string = "Hello World";
+// greeting = 10; --> would lead to an TS error
+console.log(greeting);
 
-//console.log(greeting);
+//  TypeScript Bult-in Types 
+let amountSale:number = 123_456_789;
+let isBought:boolean = false; 
 
-// 1st Example : Built-In Types 
-let stripeAmountSale : number = 123_456_789; 
-let description = "Dundie Awards";
-let isBought : boolean = false;
+// Type Any
+let ironhack; 
 
-// 2nd Example: Type Any
-let theOffice;
+let variable:any = "John"; 
+variable = 123; 
 
-//3rd Example: Arrays, Intellisense, Tupples
+// Arrays
+let creators: string[] = ["Brad", "Pete", "Arnold"]; 
+let amount : number[] = [1,2,3];
 
-let creators: string[] = ["Michael", "Phylis", "Angela"];
-let numbers : number[] = [1,2,3];
+// Intellisense (definition from VSCode Website): 
+// IntelliSense is a general term for various code editing features including: code completion, parameter info, quick info, and member lists. IntelliSense features are sometimes called by other names such as "code completion", "content assist", and "code hinting."
+
+// In this Example, if we type 'creator.' we check that we have an autocomplete only for string methods.
 
 creators.forEach((creator)=>{
-    return console.log(creator.toLowerCase());
-})
+    return console.log(creator.toLowerCase())
+});
 
-let collection : [number,string, boolean]; 
-collection = [21, "Michael", true];
 
-collection.push(2);
+// Tupples 
+let collection : [number, string, boolean, boolean] = [21, "Michael", true, false];
 
-// 4th Example (Enums): 
 
-enum SizeAwards {Small="12x12cm", Medium="30x30cm", Big="100x100cm"};
-
-let prizeSize:SizeAwards = SizeAwards.Small; 
-
-console.log(prizeSize);
-
-// 5th Example (Functions):
-
-const registerPurchase = (income : number, year=2023) =>{
+// Functions Example 
+const registerPurchase = (income: number, year=2023) => {
     if(year < 2023){
-        return console.log("are you a time traveler?")
-    } else {
+        return console.log("Are you a time traveler?")
+    }
+    else {
         return console.log(income);
     }
 }
 
-registerPurchase(stripeAmountSale);
+registerPurchase(123456, 2010);
 
-// 6th Example Type Aliases
+// Type Aliases - Type Aliases allow defining types with a custom name (an Alias).
+// They can be used for primitives like string or more complex types such as objects and arrays 
 
 type OfficeEmployee = {
-    readonly id : number, 
+    id: number, 
     name: string
-}; 
+}
 
 let dwight : OfficeEmployee = {
     id: 123, 
-    name: false
+    name: 'Dwight'
 }
+
+// Extra Example: Enums
+enum SizeAwards {Small="12x12cm", Medium="30x30cm", Big="100x100cm"};
+
+let prizeSize:SizeAwards = SizeAwards.Small; 
