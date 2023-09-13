@@ -14,7 +14,7 @@ Hope you enjoyed the workshop!
 
 <br>
 
-### Installation 
+### Installation and Commands
 
 ```bash
 # Install TypeScript Globally (you will need to install this just one time in your computer life!)
@@ -44,7 +44,13 @@ nodemon yourFileName.ts
 
 <br>
 
-### Cool Visual Studio Packages
+### Cool Visual Studio Extensions for TypeScript
 
 #### Pretty TypeScript Errors
 #### Typescript React code snippets
+
+<br>
+
+### Youtube Class Videos to Develop Your Skills
+<a href="https://www.youtube.com/watch?v=30LWjhZzg50"> Learn TypeScript by freeCodeCamp </a>
+<a href="https://www.youtube.com/playlist?list=PLvDYjZroj6JK695pQ4b5158sZnDDLEyZ_"> Learn TypeScript for React by Braedon Gough</a>
