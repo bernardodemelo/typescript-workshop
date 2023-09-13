@@ -18,7 +18,7 @@ Hope you enjoyed the workshop!
 
 ```bash
 # Install TypeScript Globally (you will need to install this just one time in your computer life!)
-sudo npm install --global typescript
+npm install --global typescript
 ```
 
 <br>
@@ -32,7 +32,7 @@ tsc --init
 
 ```bash
 # Install Nodemon for TypeScript (you will need to install this just one time in your computer life!)
-sudo npm install --save-dev ts-node nodemon
+npm install --save-dev ts-node nodemon
 ```
 
 <br>
