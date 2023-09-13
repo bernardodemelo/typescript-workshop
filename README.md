@@ -53,4 +53,5 @@ nodemon yourFileName.ts
 
 ### Youtube Class Videos to Develop Your Skills
 <a href="https://www.youtube.com/watch?v=30LWjhZzg50"> Learn TypeScript by freeCodeCamp </a>
+<br>
 <a href="https://www.youtube.com/playlist?list=PLvDYjZroj6JK695pQ4b5158sZnDDLEyZ_"> Learn TypeScript for React by Braedon Gough</a>
