@@ -41,3 +41,10 @@ sudo npm install --save-dev ts-node nodemon
 # Run TypeScript with Nodemon (yourFileName must be replaced with the name of your typeScript file)
 nodemon yourFileName.ts
 ```
+
+<br>
+
+### Cool Visual Studio Packages
+
+### Pretty TypeScript Errors
+### Typescript React code snippets
